@@ -4,22 +4,21 @@ jobs:
     firs_job:
      runs-on: ubuntu-latest
 steps:
-    -name:checkout repo
-uses: action/checkout@v4
-        
- -name:welcome message 
+       -name: checkout
+ uses: action/checkout@v4
+         -name:welcome message 
            run:echo"my first githubaction job"
                ls -lart
                cat README.md
-    -name List files
-    runs ls
-    -name  Read files
-    runs cat README.md
+        -name List files
+        runs ls
+       -name  Read files
+       runs cat README.md
 
-    -name:List files
- runs;ls
-    -name Read file
-  runs
+        -name:List file
+          runs;ls
+        -name Read file
+
 
 
 
